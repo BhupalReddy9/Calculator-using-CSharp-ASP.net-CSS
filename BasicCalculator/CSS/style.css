@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+main {
+    padding: 25px;
+}
+
+.textbox {
+    width: 425px;
+    border: 2px groove orange;
+}
+
+.Container {
+    text-align: center;
+    background-color: black;
+
+}
+
+input {
+    margin: 3px;
+    height: 75px;
+    width: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    opacity: 0.8;
+    background: transparent;
+}
+
+.equal {
+    width: 210px;
+}
+
+input:hover {
+    color: white;
+}
